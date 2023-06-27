@@ -1,0 +1,43 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ /* Add more default styles here */
+}
+
+header {
+ background-color: #1F2937;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ text-align: center;
+ height: 50vh;
+ width: 100%;
+ 
+}
+
+header .header-left h1 {
+ color: #F9FAF8;
+ font-size: 24px;
+ align-items: center;
+ margin: 30px 50px;
+}
+
+header .header-right {
+ display: flex;
+}
+
+header .header-right ul {
+ list-style: none;
+ display: flex;
+ gap: 20px;
+ margin: 30px 100px;
+ 
+}
+header .header-right ul li a {
+ text-decoration: none;
+ font-size: 18px;
+ color: #E5E7EB;
+
+}
+
