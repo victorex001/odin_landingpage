@@ -5,39 +5,87 @@
  /* Add more default styles here */
 }
 
+body {
+ margin: 0;
+ font-family: sans-serif;
+ line-height: 1;
+ align-items: center;
+}
+
+
+
+
 header {
  background-color: #1F2937;
- display: flex;
- flex-direction: row;
- justify-content: space-between;
- text-align: center;
- height: 50vh;
- width: 100%;
- 
+ display: block;
+ height: 70vh;
 }
 
-header .header-left h1 {
+header .header-nav {
+ flex-direction: row;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+header  .header-nav .header-left {
+ display: flex;
+ margin: 30px auto;
+}
+
+header  .header-nav .header-left h1 {
  color: #F9FAF8;
  font-size: 24px;
- align-items: center;
- margin: 30px 50px;
+ 
 }
-
-header .header-right {
+header  .header-nav .header-right {
  display: flex;
+ margin: 30px auto;
 }
 
-header .header-right ul {
+header  .header-nav .header-right ul {
  list-style: none;
  display: flex;
  gap: 20px;
- margin: 30px 100px;
- 
 }
-header .header-right ul li a {
+header .header-nav .header-right ul li a {
  text-decoration: none;
  font-size: 18px;
  color: #E5E7EB;
-
 }
 
+header .header-bottom {
+ flex-direction: row;
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+ margin: 150px auto;
+ width: 100%;
+}
+
+.header-bottom-left h2 {
+ color: #F9FAF8;
+ font-size: 48px;
+ font-weight: bolder;
+}
+.header-bottom-left p {
+ margin-top: 10px;
+ font-size: 18px;
+ color: #E5E7EB;
+}
+
+.header-bottom-left button {
+ background-color: #3882F6;
+ color: white;
+ margin-top: 20px;
+ padding: 10px 30px;
+ border-radius: 10px;
+ border: none;
+ cursor: pointer;
+}
+
+header .header-bottom-right img {
+ width: 500px;
+ height: 250px;
+ object-fit: cover;
+}
