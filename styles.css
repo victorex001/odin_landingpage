@@ -53,9 +53,10 @@ header {
 .header-bottom {
  flex-direction: row;
  display: flex;
- justify-content: space-evenly;
+ justify-content: center;
  align-items: center;
  margin: 150px auto;
+ gap: 10rem;
  width: 100%;
 }
 
